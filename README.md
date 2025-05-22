@@ -52,7 +52,7 @@ Receipe_App/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Receipe_App.git
+git clone https://github.com/Srithar810/Receips_App/tree/main.git
 cd Receipe_App
 
 ### 2. Install Dependencies
