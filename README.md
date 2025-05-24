@@ -3,7 +3,7 @@
 This is a simple **CRUD API** built using **Express**, **MongoDB**, and **Mongoose**. It allows users to Create, Read, Update, and Delete receipes.
 
 ---
-click Here https://documenter.getpostman.com/view/40880873/2sB2qahgcx
+click Here https://documenter.getpostman.com/view/40880873/2sB2qcBKxx
 
 
 ## 🚀 Features
