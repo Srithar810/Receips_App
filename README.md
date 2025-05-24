@@ -1,6 +1,6 @@
 # 🍽️ Receipe App - Backend (Node.js + Express + MongoDB)
 
-This is a simple **CRUD API** built using **Express**, **MongoDB**, and **Mongoose**. It allows users to Create, Read, Update, and Delete receipes.
+Develop a complete CRUD (Create, Read, Update, Delete) application for managing recipes using Node.js, Express.js, and Mongoose. The application should follow the MVC pattern and include comprehensive API documentation using Postman.
 
 ---
 click Here https://documenter.getpostman.com/view/40880873/2sB2qcBKxx
