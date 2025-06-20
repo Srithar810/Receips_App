@@ -3,7 +3,7 @@
 Develop a complete CRUD (Create, Read, Update, Delete) application for managing recipes using Node.js, Express.js, and Mongoose. The application should follow the MVC pattern and include comprehensive API documentation using Postman.
 
 ---
-click Here https://documenter.getpostman.com/view/40880873/2sB2qcBKxx
+click Here[ https://documenter.getpostman.com/view/40880873/2sB2qcBKxx](https://documenter.getpostman.com/view/40880873/2sB2xBDA95)
 
 
 ## 🚀 Features
