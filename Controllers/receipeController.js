@@ -47,10 +47,10 @@ export const getReceipeById = async (req, res) => {
 export const updateReceipe = async (req, res) => {
   try {
     const receipeId = req.params.id;
-    const { name, description, quantity, price } = req.body;
+    const { recipeName, ingredients, instructions  } = req.body;
     const result = await receipes.findByIdAndUpdate(
       { _id: receipeId },
-      { name, description, quantity, price },
+      { recipeName, ingredients, instructions },
       { new: true }
     );
     if (result.matchedCount == 0) {
@@ -75,8 +75,8 @@ export const deleteReceipe = async (req,res)=>{
     if(!result){
       return res.status(404).json({ message: "Receipe Not Found" });
     }
-    const receipe = await receipes.find()
-    res.status(200).json({message:"Receipe Deleted Sucessfully", data:receipe})
+    // const receipe = await receipes.find()
+    res.status(200).json({message:"Receipe Deleted Sucessfully"})
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
